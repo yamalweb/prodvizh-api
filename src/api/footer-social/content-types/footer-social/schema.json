@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_socials",
+  "info": {
+    "singularName": "footer-social",
+    "pluralName": "footer-socials",
+    "displayName": "Футер соцсети",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "displayName": "social",
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social"
+    }
+  }
+}

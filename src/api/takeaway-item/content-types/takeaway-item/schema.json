@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "takeaway_items",
+  "info": {
+    "singularName": "takeaway-item",
+    "pluralName": "takeaway-items",
+    "displayName": "Вещи для событий",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

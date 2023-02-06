@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "menu_mains",
+  "info": {
+    "singularName": "menu-main",
+    "pluralName": "menu-mains",
+    "displayName": "Главное меню",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link"
+    }
+  }
+}
